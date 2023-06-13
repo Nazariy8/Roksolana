@@ -1,0 +1,63 @@
+body{
+    background-color: burlywood;
+}
+.header-wrap{
+    background-color:bisque;
+    height: 90px;
+    border-radius: 20px;
+    
+}
+ul{
+   list-style: none;
+
+}
+a{
+    font-size: 25px ;
+    text-decoration: none;
+    color:blue;
+    margin: 70px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:hover{
+    color:black;
+    
+}
+li{
+    display:inline;
+}
+.Logo{
+    width: 300px;
+    margin: 0 auto;
+    
+}
+.service{
+    opacity: 50%;
+    width: 1000px;
+    border-radius: 100px;
+}
+.main-text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.footer{
+    background-color:bisque;
+    height: 100px;
+    margin-top: auto;
+    border-radius: 20px;
+}
+
+.page{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+body{
+    height: 100%;
+}
+.main{
+    flex: 1 1 auto;
+}
+.main-menu{
+    margin-bottom: 100%;
+}
